@@ -1,0 +1,42 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  color:rgb(28, 1, 1);
+
+}
+
+#hero li {
+    float:right;
+      padding: 8px;
+}
+
+#hero ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+#hero a {
+  display: block;
+  text-decoration: inherit;
+  color:inherit;
+  font-size: 40px;
+
+}
+
+
+#hero li:nth-child(1) {
+  float: left;
+}
+
+#hero{
+  margin: 40px 40px 150px;
+}
+
+h1{
+
+text-align: right;
+margin-right: 30%;
+font-size: 64px;
+
+}
