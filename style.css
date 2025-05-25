@@ -133,3 +133,49 @@ footer {
   justify-content: center;
   align-items: center;
 }
+
+.fabi-foto{
+  width: 400px;
+  height: 400px;
+}
+
+.text-about{
+  margin:auto;
+width:70%;
+font-size: 28px;
+color: rgb(0, 0, 0);
+font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.presentation-about{
+  margin:auto;
+  margin-top:50px;
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 50px;
+  padding-top: 10px;
+  width: 1000px;
+  height: 100%;
+
+}
+
+.work-experience{
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.contact-work{
+  margin:auto;
+  margin-top:30px;
+  margin-left:500px;
+width:70%;
+font-size: 28px;
+color: rgb(0, 0, 0);
+font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
+
+}
