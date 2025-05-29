@@ -42,13 +42,14 @@ body{
   font-family: "DM Mono", monospace;
   font-weight: 300;
   font-style: normal;
+
 }
 
 h1{
 
 margin:auto;
 width:70%;
-font-size: 28px;
+font-size: 24px;
 color: rgb(0, 0, 0);
 font-family: "DM Mono", monospace;
   font-weight: 300;
@@ -95,18 +96,22 @@ font-family: "DM Mono", monospace;
 footer {
   background-color: #F4AB0E; 
   padding: 10px;  
-  font-size: 12px; 
+  font-size: 16px; 
   color: #BC4155; 
   margin-top: 5%;
   text-align: center;
+  font-family: "DM Mono", monospace;
+  font-weight: 300;
+  font-style: normal;
 
 }
+
 
 
 #main-container {
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
   min-height: 100vh;
 }
 
@@ -142,7 +147,7 @@ footer {
 .text-about{
   margin:auto;
 width:70%;
-font-size: 28px;
+font-size: 24px;
 color: rgb(0, 0, 0);
 font-family: "DM Mono", monospace;
   font-weight: 300;
@@ -167,7 +172,7 @@ font-family: "DM Mono", monospace;
   font-style: normal;
 }
 
-.contact-work{
+/*.contact-work{
   margin:auto;
   margin-top:30px;
   margin-left:500px;
@@ -178,4 +183,13 @@ font-family: "DM Mono", monospace;
   font-weight: 300;
   font-style: normal;
 
+}*/
+
+a{
+  text-decoration: inherit;
+  color:inherit;
+}
+
+.project-family-arrow{
+  transition: all 0.1s ease-in-out;
 }
